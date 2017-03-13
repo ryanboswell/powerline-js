@@ -42,8 +42,8 @@ var SYMBOLS =
 	},
 	'patched':
 	{
-		separator: '\u2B80',
-		separator_thin: '\u2B81'
+		separator: '\uE0B0',
+		separator_thin: '\uE0B1'
 	}
 };
 
@@ -423,4 +423,3 @@ if (require.main === module)
 exports.Powerline = Powerline;
 exports.Segment = Segment;
 exports.parseOptions = parseOptions;
-
